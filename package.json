@@ -1,0 +1,47 @@
+{
+  "name": "using-pre-built-react-components",
+  "version": "1.0.0",
+  "description": "KeeperApp",
+  "keywords": [],
+  "main": "src/index.js",
+  "options": {
+    "allowedHosts": ["localhost", ".localhost"],
+    "proxy": "https://localhost:3001/"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.2",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^7.5.0",
+    "react-scripts": "5.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "author": "Roshan Pampari",
+  "license": "ISC"
+}
